@@ -1,0 +1,124 @@
+  Section - Contact
+  -----------------
+*/
+
+#form-contact textarea {
+  height: 120px;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  #form-contact button {
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .contact-address {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid #dfdfdf;
+  }
+}
+
+
+/* Bing map */
+
+.map {
+  position: relative;
+  padding-bottom: 100%;    /* aspect ratio 1:1 */
+  height: 0;
+  overflow: hidden;
+}
+@media (min-width:420px) {
+  .map {
+    padding-bottom: 75%;    /* aspect ratio 3:4 */
+  }
+}
+@media (min-width:540px) {
+  .map {
+    padding-bottom: 60%;    /* aspect ratio 3:5 */
+  }
+}
+@media (min-width:800px) {
+  .map {
+    padding-bottom: 75%;    /* aspect ratio 3:4 */
+  }
+}
+.map iframe {
+  position: absolute;
+  border: 0;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+/* Forms */
+
+.form {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  border: 0;
+}
+.form iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+#volunteer-form {
+  padding-bottom: 3000px;    /* height */
+}
+#nominate-speaker-form {
+  padding-bottom: 1950px;    /* height */
+}
+
+
+
+
+
+/*
+  Footer
+  ------
+*/
+
+.footer {
+  padding: 50px 0 32px;
+}
+.footer-logo {
+  padding-bottom: 25px;
+}
+.footer-logo img {
+  width: 120px;
+}
+.footer .disclaimer {
+  padding-bottom: 25px;
+  font-size: 14px;
+}
+.footer-social {
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .footer-social {
+    padding-bottom: 50px;
+  }
+}
+.footer-social ul > li {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .footer-social ul > li {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+.footer-copyright {
+  padding-top: 32px;
+}
+
+
